@@ -8,146 +8,95 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <title>My Agile Website</title>
+    <title>My Agile and Scrum Website</title>
   </head>
   <body>
-<div class="container">
-    <div class="jumbotron mt-4 mb-0">
-       <h1 class="display-4">My Agile Website</h1>
-       <p class="lead">Explaining Agile for people that haven’t heard of Agile, or just want to know a little more</p>
-    </div>
+    <div id="grid" class="container-fluid">
 
-    <nav class="navbar navbar-light bg-light">
-        
-        
-        <div class="">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Agile</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Scrum</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Kanban</a>
-            </li>
-          </ul>
-        </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      </nav>
+        <div class="jumbotron mt-4 mb-4">
+            <h1 class="display-4">My Agile Website</h1>
+            <p class="lead">Explaining Agile for people that haven’t heard of Agile, or just want to know a little more</p>
+           </div>
+           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Agile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Scrum</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kanban</a>
+                  </li>
+              </ul>
+              <span class="navbar-text">
+                by: Julius Aboagye
+              </span>
+            </div>
+          </nav>
+        <div class="row">
+              <div class="col-md-4">
+                    <nav class="nav flex-column">
+                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link" href="#future">The future of Software Development</a>
+                        <a class="nav-link" href="#feature">Feature flagging or feature toggling</a>
+                    </nav>
+                  <div class="card mt-3" style="width: 12rem;">
+                          <div class="card-body">
+                          <h5 class="card-title">Sign up to our newsletter!</h5>
+                          <p class="card-text">This newsletter is full of juicy news the people don’t want you to know!</p>
+                          
+                          <button type="button" class="btn btn-success">Sign up</button>
+                          </div>
+                  </div>
+              </div>    
+              <div class="col-md-8">
+                    <div class="container" id="home">  
+                    <h1 id="future"> What is Software Development</h1>
+                      <p>Software is everywhere these days: phones, TVs, cars, vending machines, coffee makers, and pet toys all offer some software driven features. All of these products have been created by groups of people that have organized with the goal of making electronic signals behave in a desirable pattern. In short, software development is the overall process involved when taking a software project from conception to production delivery.
 
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Introduction to Scrum <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sprints</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sprint Planning</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Ceremonies</a>
-            </li>
-          </ul>
-        </div>
-      </nav> 
+                        This process encompases the design, documentation, programming, testing and ongoing maintenance of a software deliverable. These various aspects are used to create a workflow pipeline, a sequence of steps that when followed produce high quality software deliverables. This pipeline is known as the Software Development Lifecycle.
+                        
+                        The art of software development has many deep schools of thought. The following discussion is not a comprehensive guide, but a overview of the most recognized techniques. Software development today is generally executed with a complementary agile project management process. This process is in-effect during steps 3 and 4 from the Software Development Lifecycle.
+                        
+                        A regular planning period is conducted in which expectations are set, dependencies are addressed and tasks defined. The tasks are executed and adjusted during a sprint period. During the sprint period these tasks are updated as they progress to completion. Specialized organizational software for task tracking, like Jira, is used to monitor the state of individual task within a holistic sprint view.</p>  
+                      <p ><h1> The future of Software Development</h1></p>
+                      <p>The immediate future of software development is directed by a few core values: automation, transparency, and democratization. Overall these trends are lowering the costs required to develop new projects and lowering the barrier to entry for non-technical team members to contribute to software development. 
 
-      <div class="container mb-3">
-        Notes
+                        The following practices have been adopted by some of the most successful enterprise software companies. Understanding how your team can use these practices to increase the speed of development can lead to a competitive advantage. These are the trends and practices that are enabling software companies to execute next level vision and delivery of product.</p>
+                      <h2 id="feature">Feature flagging or feature toggling</h2>
+                      <p>This is a practice which enables ‘soft releases’ of new code. Before feature flagging, teams would push entire features out to all production users as part of a regular code release. Feature flagging reduces the risk for deployments by allowing safe validation of features in a production environment before exposing them live to all live customers. Once a feature flag rollout has been successfully, privately, validated it can be rapidly rolled out and change live customer experience.</p>
+                      <h2>Microservices</h2>
+                      <p>Many modern networked applications have adopted a Microservices architecture (MSA) infrastructure. MSA is a distributed network architecture that enables horizontally scaling and network redundancy. A microservice implementation will break an application in to separate deployments that correspond to business needs. Some examples of these business needs are: payments, authentication, and analytics.</p>
+                      <h2>Functional programming – formally verified software</h2>
+                      <p>A reemergence of lost and under utilized functional programing paradigms from the last century is underway. A new generation of developers are rediscovering languages like Ocaml, Haskell, and Lisp.  Discussions are being had about mistakes in language design. Discussions like maybe Object Oriented Programming was a mistake.
 
-        Welcome to my notes on Agile and Scrum
-        Table of Content
-        What is Agile Development?
-        What is Scrum?
-        Where does Agile and Scrum intersect?
-        Advantages of Agile Methodology
-        Disadvantages of the Agile Methodology
-        Examples of Agile methodology frameworks
-        What is Scrum?
-        Ceremonies
-        Differences Between Srum and Kanban
-        Links to Sources
-        What is Agile Development?
-        Software development comprises various approaches to software development under which requirements and solutions evolve through the collaborative effort of self-organizing and cross-functional teams and their customer(s) or end user(s).
-        
-         Source
-        What is Srum?
-        Scrum is a framework that helps teams work together. Much like a rugby team (where it gets its name) training for the big game, Scrum encourages teams to learn through experiences, self-organize while working on a problem, and reflect on their wins and losses to continuously improve.
-        
-        Where does Agile and Scrum intersect?
-        Sprints help teams follow the agile principle of "delivering working software frequently," as well as live the agile value of "responding to change over following a plan." The scrum values of transparency, inspection, and adaptation are complementary to agile and central to the concept of sprints.
-        
-        Advantages of Agile Methodology:
-        In Agile methodology the delivery of software is unremitting.
-        The customers are satisfied because after every Sprint working feature of the software is delivered to them.
-        Customers can have a look of the working feature which fulfilled their expectations.
-        If the customers has any feedback or any change in the feature then it can be accommodated in the current release of the product.
-        In Agile methodology the daily interactions are required between the business people and the developers.
-        In this methodology attention is paid to the good design of the product.
-        Changes in the requirements are accepted even in the later stages of the development.
-        Disadvantages of the Agile Methodology
-        In Agile methodology the documentation is less.
-        Sometimes in Agile methodology the requirement is not very clear hence it’s difficult to predict the expected result.
-        In few of the projects at the starting of the software development life cycle it’s difficult to estimate the actual effort required.
-        The projects following the Agile methodology may have to face some unknown risks which can affect the development of the project.
-        Examples of Agile methodology frameworks:
-        Scrum
-        Kanban
-        Extreme Programming (XP)
-        Adaptive Project Framework (APF)
-        What is Scrum
-        Scrum is a framework that helps teams work together. Much like a rugby team (where it gets its name) training for the big game, Scrum encourages teams to learn through experiences, self-organize while working on a problem, and reflect on their wins and losses to continuously improve. While the Scrum I’m talking about is most frequently used by software development teams, its principles and lessons can be applied to all kinds of teamwork. This is one of the reasons Scrum is so popular. Often thought of as an agile project management framework, Scrum describes a set of meetings, tools, and roles that work in concert to help teams structure and manage their work.
-        
-        Ceremonies
-        Sprint Planning
-        Daily Stand-up
-        Iteration review
-        Retrospective
-        
-        Differences Between Srum and Kanban
-        Scrum	Kanban
-        Regular fixed length sprints (ie, 2 weeks)	Continuous flow
-        At the end of each sprint	Continuous delivery
-        Product owner, scrum master, development team	No required roles
-        Velocity	Lead time, cycle time, WIP
-        Teams should not make changes during the sprint.	Change can happen at any time
-        Links to Sources
-        Atlassian
-        Agile Wiki
-        Blue Prints
+                        Organizations are finding that higher quality, well designed, user empathetic programing languages can lay a foundation for higher quality, well designed user empathetic business product output. Functional languages can provide these higher quality offerings with features that lower the cognitive overhead of developers interacting and maintaining a code base. This leads to less bugs and higher quality software.
+                        
+                        Formal verification is the process of proving or disproving the correctness of algorithms in an underlying system. It can be thought of as a mathematical process like verifying an algebraic expression. A formal property specification is provided for the algorithms implementation, and methods like static analysis can be used to prove the correctness of the implementation. 
+                        
+                        From the idea of formal verification comes the radical idea that—maybe—code can write itself. Given a well designed up front formal business domain type specification and a soundly typed language. Generative tools can be used to write a code base that matches the formal specification. Languages like idris, coq, agda are exploring these ideas.</p>
+                    </div>      
+              </div>                    
+       </div>
 
-
-      </div>
-      <div class="card" style="width: 18rem;">
-        <div class="card-body mb-3">
-          <h5 class="card-title">Sign up to my Newsletter</h5>
-          <h6 class="card-subtitle mb-2 text-muted">This newsletter is full of juicy news the people don’t want you to know!</h6>
+       <div class="card">
+        
+        <div class="card-body">
           
-          <a href="#" class="card-link">Click Here</a>
+          <p class="card-text">Copyright James Belchamber, all rights reserved, except the stuff I stole.Built with Bootstrap and hosted on Github Pages.</p>
           
         </div>
       </div>
 
-      <div class="container  bg-secondary mt-4">
-        
-        <p>Copyright Julius Aboagye, all rights reserved, except the stuff I stole.Built with Bootstrap and hosted on Github Pages</p>
-     </div>
-	
-    
-    
-
-
-
-</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
