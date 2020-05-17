@@ -17,83 +17,90 @@
             <h1 class="display-4">My Agile Website</h1>
             <p class="lead">Explaining Agile for people that haven’t heard of Agile, or just want to know a little more</p>
            </div>
-           <nav class="navbar  navbar-expand-lg navbar-light bg-light sticky-top ">
-            
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Agile.html">Agile</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Scrum</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Kanban</a>
-                  </li>
-              </ul>
-              <span class="navbar-text">
-                by: Julius Aboagye
-              </span>
+
+           <ul class="nav nav-pills nav-fill sticky-top bg-light">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Agile.html">Agile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="scrum.html">Scrum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#" tabindex="-1">Kanban</a>
+            </li>
+            <div class="sticky-top d-md-none">
+              <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-light p-4">
+                   <h5 class="text-black h6"><a href="#what1">What is Agile?</a></h5>
+                   <h5 class="text-black h6"><a href="#is">Is the Agile Manifesto still a thing?</a></h5>
+                   
+
+                  <span class="text-muted">Toggleable via the navbar brand.</span>
+                </div>
+              </div>
+              <nav class="navbar navbar-light bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </nav>
             </div>
-          </nav>
-        <div class="row">
-              <div class="col-md-4">
-                    <nav class="nav flex-column">
-                        <a class="nav-link active" href="Agile.html">What is Agile?</a>
-                        <a class="nav-link" href="#ist2">Is the Agile Manifesto still a thing?</a>
+          </ul>
+
+
+          
+          <div class="row">
+              <div class="col-md-4 ">
+                    <nav class="nav flex-column d-none d-md-block ">
+
+                        <a class="nav-link active" href="index.html"></a>
+                        <a class="nav-link" href="#future">The future of Software Development</a>
+                        <a class="nav-link" href="#feature">Feature flagging or feature toggling</a>
+                        <a class="nav-link" href="#microservice">Feature flagging or feature toggling</a>
                         <a class="nav-link" href="#feature">Feature flagging or feature toggling</a>
                     </nav>
-                  <div class="card mt-3 d-none d-md-block
-                  "  style="width: 12rem;">
-                          <div class="card-body">
+                  <div class="card mt-3" style="width: 12rem;">
+                          <div class="card-body d-none d-md-block ">
                           <h5 class="card-title">Sign up to our newsletter!</h5>
                           <p class="card-text">This newsletter is full of juicy news the people don’t want you to know!</p>
                           
                           <button type="button" class="btn btn-success">Sign up</button>
                           </div>
                   </div>
-              </div>    
+              </div>   
+
               <div class="col-md-8">
                     <div class="container" id="home">  
-                    <h1 id="ist"> What is Agile?</h1>
-                      <p>
-                        Agile is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headaches. Instead of betting everything on a "big bang" launch, an agile team delivers work in small, but consumable, increments. Requirements, plans, and results are evaluated continuously so teams have a natural mechanism for responding to change quickly.
-                        </p>  
-                      <p ><h1 id="ist2">Is the Agile Manifesto still a thing?</h1></p>
-                      <p> 
-
-                       Standing amidst the technological revolution, we find ourselves asking if the Agile Manifesto should still be our guide as we move into a world defined by continuous innovation. This short, but game-changing document helped take us from shipping products like they were cargo on boats to same-day delivery by drone. But today, we're less pioneers, and more like explorers on the seas of continuous improvement, which makes us wonder, is it time to improve the Manifesto, too?</p>
-                      <h6>We are Working on the page. Come back Later thanks</h6>
+                    <h1 id="what1"> What is Agile?</h1>
+                      <p>Agile is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headaches. Instead of betting everything on a "big bang" launch, an agile team delivers work in small, but consumable, increments. Requirements, plans, and results are evaluated continuously so teams have a natural mechanism for responding to change quickly.</p>  
+                      <p id="is"><h1>Is the Agile Manifesto still a thing?</h1></p>
+                      <p>Standing amidst the technological revolution, we find ourselves asking if the Agile Manifesto should still be our guide as we move into a world defined by continuous innovation. This short, but game-changing document helped take us from shipping products like they were cargo on boats to same-day delivery by drone. But today, we're less pioneers, and more like explorers on the seas of continuous improvement, which makes us wonder, is it time to improve the Manifesto, too?</p>
+                      <h1>Come back for updates 😃</h1>
                     </div>      
               </div>                    
        </div>
+              <div class="card mt-3" style="width: 12rem;">
+                <div class="card-body d-md-none ">
+                <h5 class="card-title">Sign up to our newsletter!</h5>
+                <p class="card-text">This newsletter is full of juicy news the people don’t want you to know!</p>
+                
+                <button type="button" class="btn btn-success">Sign up</button>
+                </div>
+              </div>
 
-       <div class="card">
+      
+                
+       <div class="card mt-4">
         
         <div class="card-body">
           
           <p class="card-text">Copyright Julius Aboagye, all rights reserved, except the stuff I stole.Built with Bootstrap and hosted on Github Pages.</p>
           
         </div>
-        
-        <div class="d-md-none ">
-        <div class="card mt-3  " style="width: 12rem;">
-          <div class="card-body">
-          <h5 class="card-title">Sign up to our newsletter!</h5>
-          <p class="card-text">This newsletter is full of juicy news the people don’t want you to know!</p>
-          
-          <button type="button" class="btn btn-success">Sign up</button>
-          </div>
-        </div> 
-  </div>
-        
 
+        
       </div>
 
     <!-- Optional JavaScript -->
